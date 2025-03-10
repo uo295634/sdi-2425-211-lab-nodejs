@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
+    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-8.4-Recursos estáticos, peticiones POST y parámetros,&#10;Enrutamiento y comodines.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/buy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/song1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/publication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/song.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +69,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fernando/Desktop/n",
+    "last_opened_file_path": "C:/Users/Fernando/IdeaProjects/sdi-2425-211-lab-nodejs/musicstoreapp/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +79,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\public" />
+      <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\public\images" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.www">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/app.js" working-dir="$PROJECT_DIR$/musicstoreapp">
       <method v="2" />
@@ -99,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741594063378</updated>
       <workItem from="1741594064512" duration="537000" />
-      <workItem from="1741597629359" duration="2120000" />
+      <workItem from="1741597629359" duration="3122000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
@@ -109,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741598605838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SDI-2425-211-8.3-División de las rutas en módulos, peticiones GET y&#10;parámetros.">
+      <option name="closed" value="true" />
+      <created>1741599969972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741599969972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SDI-2425-211-8.2-Express, depuración y variables de entorno." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-8.2-Express, depuración y variables de entorno." />
+    <MESSAGE value="SDI-2425-211-8.3-División de las rutas en módulos, peticiones GET y&#10;parámetros." />
+    <MESSAGE value="SDI-2425-211-8.4-Recursos estáticos, peticiones POST y parámetros,&#10;Enrutamiento y comodines." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-8.4-Recursos estáticos, peticiones POST y parámetros,&#10;Enrutamiento y comodines." />
   </component>
 </project>
