@@ -1,7 +1,28 @@
 module.exports = function(app, twig) {
 
     app.get("/authors/add", function (req, res) {
-        res.render("authors/add.twig");
+        let roles = [{
+            "name": "Cantante",
+            "value": "cantante"
+        },{
+            "name": "Violinista",
+            "value": "violinista"
+        },{
+            "name": "Trompetista",
+            "value": "trompetista"
+        },{
+            "name": "Saxofonista",
+            "value": "saxofonista"
+        },{
+            "name": "Pianista",
+            "value": "pianista"
+        }];
+
+        let response = {
+            roles: roles
+        };
+
+        res.render("authors/add.twig", response);
     });
 
     app.get('/authors', function (req, res) {
@@ -12,7 +33,7 @@ module.exports = function(app, twig) {
         }, {
             "name": "Henry William",
             "group": "Metalica",
-            "role": "guitarrista"
+            "role": "saxofonista"
         }, {
             "name": "Mark Ruffalo",
             "group": "Iron Man",
