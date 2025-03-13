@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-sesión8-ejercicio-complementario1">
+    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-sesión8-ejercicio-complementario2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <workItem from="1741594064512" duration="537000" />
       <workItem from="1741597629359" duration="3122000" />
       <workItem from="1741608316027" duration="2707000" />
-      <workItem from="1741863969065" duration="5111000" />
+      <workItem from="1741863969065" duration="6075000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
@@ -138,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741868585612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SDI-2425-211-sesión8-ejercicio-complementario2">
+      <option name="closed" value="true" />
+      <created>1741869580403</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741869580403</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="SDI-2425-211-8.3-División de las rutas en módulos, peticiones GET y&#10;parámetros." />
     <MESSAGE value="SDI-2425-211-8.4-Recursos estáticos, peticiones POST y parámetros,&#10;Enrutamiento y comodines." />
     <MESSAGE value="SDI-2425-211-sesión8-ejercicio-complementario1" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-sesión8-ejercicio-complementario1" />
+    <MESSAGE value="SDI-2425-211-sesión8-ejercicio-complementario2" />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-sesión8-ejercicio-complementario2" />
   </component>
 </project>

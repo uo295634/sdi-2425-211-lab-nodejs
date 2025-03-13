@@ -1,5 +1,23 @@
 module.exports = function(app, twig) {
 
+    let authors = [{
+        "name": "Kase O",
+        "group": "VV",
+        "role": "cantante"
+    }, {
+        "name": "Henry William",
+        "group": "Metalica",
+        "role": "saxofonista"
+    }, {
+        "name": "Mark Ruffalo",
+        "group": "Iron Man",
+        "role": "violinista"
+    }, {
+        "name": "Zach Erick",
+        "group": "Los 4",
+        "role": "pianista"
+    }];
+
     app.get("/authors/add", function (req, res) {
         let roles = [{
             "name": "Cantante",
@@ -26,23 +44,7 @@ module.exports = function(app, twig) {
     });
 
     app.get('/authors', function (req, res) {
-        let authors = [{
-            "name": "Kase O",
-            "group": "VV",
-            "role": "cantante"
-        }, {
-            "name": "Henry William",
-            "group": "Metalica",
-            "role": "saxofonista"
-        }, {
-            "name": "Mark Ruffalo",
-            "group": "Iron Man",
-            "role": "violinista"
-        }, {
-            "name": "Zach Erick",
-            "group": "Los 4",
-            "role": "pianista"
-        }];
+
         let response = {
             seller: "Autores",
             authors: authors
@@ -69,7 +71,13 @@ module.exports = function(app, twig) {
         }
         res.send(response);
     });
-
+    app.get("/authors/filter/:role", function (req, res) {
+        let response = {
+            seller: "Autores",
+            authors: authors.filter(author => author.role.toLowerCase().trim() === req.params.role.toLowerCase().trim())
+        };
+        res.render("authors/authors.twig", response);
+    });
     app.get("/authors/*", function (req, res) {
         res.redirect("/authors");
     });
