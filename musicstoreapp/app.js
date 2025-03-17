@@ -12,7 +12,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-require("./routes/songs.js")(app);
+
+const { MongoClient } = require("mongodb");
+const connectionStrings = 'mongodb+srv://admin:sdi@musicstoreapp.7u6jt.mongodb.net/?retryWrites=true&w=majority&appName=musicstoreapp';
+const dbClient = new MongoClient(connectionStrings);
+require("./routes/songs.js")(app, dbClient);
 require("./routes/authors.js")(app);
 
 

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-sesión8-ejercicio-complementario2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +96,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +113,7 @@
       <workItem from="1741597629359" duration="3122000" />
       <workItem from="1741608316027" duration="2707000" />
       <workItem from="1741863969065" duration="6075000" />
+      <workItem from="1742198914968" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
