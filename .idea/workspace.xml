@@ -5,16 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-9.2-Arquitectura para el acceso a datos.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/session/cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/session/memory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/session/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express-session/session/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/random-bytes/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/random-bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/random-bytes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/random-bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/random-bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/uid-safe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/uid-safe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/uid-safe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/uid-safe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/uid-safe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/audios/67d96815927495822f9399cd.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/audios/67d972d15e8071bebe584df7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/covers/67d96815927495822f9399cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/covers/67d972d15e8071bebe584df7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/usersRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/song.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/login.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/signup.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +118,8 @@
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\views" />
+      <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\views\songs" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.www">
@@ -122,6 +161,7 @@
       <workItem from="1741608316027" duration="2707000" />
       <workItem from="1741863969065" duration="6075000" />
       <workItem from="1742198914968" duration="6665000" />
+      <workItem from="1742301135521" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
