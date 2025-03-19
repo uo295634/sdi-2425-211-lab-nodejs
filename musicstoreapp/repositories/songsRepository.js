@@ -6,6 +6,16 @@ module.exports = {
     init: function (app, dbClient) {
         this.dbClient = dbClient;
         this.app = app;
+    }, updateSong: async function(newSong, filter, options) {
+        try {
+            await this.dbClient.connect();
+            const database = this.dbClient.db(this.database);
+            const songsCollection = database.collection(this.collectionName);
+            const result = await songsCollection.updateOne(filter, {$set: newSong}, options);
+            return result;
+        } catch (error) {
+            throw (error);
+        }
     },
     getSongs: async function (filter, options) {
         try {
