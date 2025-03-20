@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-9.4-Registro de usuario, autenticación y uso de sesión.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/audios/67db3d1807861e4626c2225a.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/covers/67db3d1807861e4626c2225a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userSessionRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/edit.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/publication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -126,6 +117,7 @@
       <workItem from="1742198914968" duration="6665000" />
       <workItem from="1742301135521" duration="5040000" />
       <workItem from="1742420335163" duration="3325000" />
+      <workItem from="1742468532760" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
