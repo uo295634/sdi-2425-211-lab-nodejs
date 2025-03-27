@@ -184,14 +184,36 @@ module.exports = function(app, songsRepository) {
 
     app.get('/songs/:id', function (req, res) {
         // let filter = {_id: req.params.id};
-        let filter = {_id: new ObjectId(req.params.id)};
+        let filter = { _id: new ObjectId(req.params.id) }; // Convertir el id correctamente
         let options = {};
+
         songsRepository.findSong(filter, options).then(song => {
-            res.render("songs/song.twig", {song: song});
+            esComprable(req.session.user, song, (puedeComprar) => {
+                res.render("songs/song.twig", { song: song, puedeComprar: puedeComprar });
+            });
         }).catch(error => {
-            res.send("Se ha producido un error al buscar la canción " + error)
+            res.send("Se ha producido un error al buscar la canción: " + error);
         });
     });
+
+    function esComprable(user, song, callback) {
+        let songAuthor = song.author;
+        if(user === songAuthor){
+            callback(false);
+            return;
+        }
+        let filterSongs = { song_id: song._id,  user: user };
+        songsRepository.getPurchases(filterSongs, {}).then(purchases => {
+            if (purchases.length > 0) {
+               callback(false);
+            }else {
+                callback(true);
+            }
+        });
+
+    }
+
+
 
     app.get('/publications', function (req, res) {
         let filter = {author : req.session.user};
@@ -268,6 +290,8 @@ module.exports = function(app, songsRepository) {
             callback(true); // FIN
         }
     };
+
+
 
 
 
