@@ -183,26 +183,39 @@ module.exports = function(app, songsRepository) {
     });
 
     app.get('/songs/:id', function (req, res) {
-        // let filter = {_id: req.params.id};
-        let filter = { _id: new ObjectId(req.params.id) }; // Convertir el id correctamente
+        let songId = new ObjectId(req.params.id);
+        let user = req.session.user;
+        let filter = {_id: songId};
         let options = {};
-
         songsRepository.findSong(filter, options).then(song => {
-            esComprable(req.session.user, song, (puedeComprar) => {
-                res.render("songs/song.twig", { song: song, puedeComprar: puedeComprar });
+            esComprable(user, song, (canBuySong) =>{
+                let settings = {
+                    url: "https://api.currencyapi.com/v3/latest?apikey=cur_live_gFjartiroYN43zzzVCAjcShP7gXrjg3pqLUAtylG&base_currency=EUR&currencies=USD",
+                    method: "get",
+                }
+                let rest = app.get("rest");
+                rest(settings, function (error, response, body) {
+                    console.log("cod: " + response.statusCode + " Cuerpo :" + body);
+                    let responseObject = JSON.parse(body);
+                    let rateUSD = responseObject.data.USD.value;
+                    // nuevo campo "usd" redondeado a dos decimales
+                    let songValue =  song.price / rateUSD
+                    song.usd = Math.round(songValue * 100) / 100;
+                    console.log("Valor de canBuySong antes de renderizar:", canBuySong);
+                    res.render("songs/song.twig", {song: song, canBuySong: canBuySong});
+                })
             });
         }).catch(error => {
-            res.send("Se ha producido un error al buscar la canción: " + error);
+            res.send("Se ha producido un error al buscar la canción " + error)
         });
     });
-
     function esComprable(user, song, callback) {
         let songAuthor = song.author;
-        if(user === songAuthor){
+        if(String(user) === String(songAuthor)){
             callback(false);
             return;
         }
-        let filterSongs = { song_id: song._id,  user: user };
+        let filterSongs = { song_id: new ObjectId(song._id), user: user  };
         songsRepository.getPurchases(filterSongs, {}).then(purchases => {
             if (purchases.length > 0) {
                callback(false);
