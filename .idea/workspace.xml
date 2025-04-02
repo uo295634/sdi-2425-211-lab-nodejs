@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-11.4-SW Cliente JQuery + AJAX (Ampliaciones).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
-    </list>
+    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-11.5-SW Consumir SW desde Node.js." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +81,7 @@
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\views\songs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RunManager" selected="Node.js.hello-world-server.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/app.js" working-dir="$PROJECT_DIR$/musicstoreapp">
       <method v="2" />
     </configuration>
@@ -99,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.hello-world-server.js" />
         <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.hello-world-server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +132,7 @@
       <workItem from="1743404694183" duration="129000" />
       <workItem from="1743404827042" duration="13015000" />
       <workItem from="1743597596462" duration="1160000" />
-      <workItem from="1743616386311" duration="6599000" />
+      <workItem from="1743616386311" duration="7077000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
@@ -268,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743620592131</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="SDI-2425-211-11.5-SW Consumir SW desde Node.js.">
+      <option name="closed" value="true" />
+      <created>1743627032506</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1743627032506</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +307,8 @@
     <MESSAGE value="SDI-2425-211-11.2-SW API REST Autenticación." />
     <MESSAGE value="SDI-2425-211-11.3-SW Cliente JQuery + AJAX." />
     <MESSAGE value="SDI-2425-211-11.4-SW Cliente JQuery + AJAX (Ampliaciones)." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-11.4-SW Cliente JQuery + AJAX (Ampliaciones)." />
+    <MESSAGE value="SDI-2425-211-11.5-SW Consumir SW desde Node.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-11.5-SW Consumir SW desde Node.js." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
