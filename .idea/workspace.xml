@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-11.2-SW API REST Autenticación.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
+    <list default="true" id="8ec9751d-dab2-4af5-aca5-5dbe0119c86e" name="Changes" comment="SDI-2425-211-11.3-SW Cliente JQuery + AJAX.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/javascripts/cookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.hello-world-server.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando/IdeaProjects/sdi-2425-211-lab-nodejs/musicstoreapp/bin/certificates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.app.js.executor": "Run",
+    "Node.js.hello-world-server.js.executor": "Run",
+    "Node.js.www.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Fernando/IdeaProjects/sdi-2425-211-lab-nodejs/musicstoreapp/public/javascripts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\public\javascripts" />
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\bin\certificates" />
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\Fernando\IdeaProjects\sdi-2425-211-lab-nodejs\musicstoreapp\public" />
@@ -140,7 +137,8 @@
       <workItem from="1743073725055" duration="6598000" />
       <workItem from="1743404694183" duration="129000" />
       <workItem from="1743404827042" duration="13015000" />
-      <workItem from="1743597596462" duration="925000" />
+      <workItem from="1743597596462" duration="1160000" />
+      <workItem from="1743616386311" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-211-8.2-Express, depuración y variables de entorno.">
       <option name="closed" value="true" />
@@ -254,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743592815168</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SDI-2425-211-11.3-SW Cliente JQuery + AJAX.">
+      <option name="closed" value="true" />
+      <created>1743598555546</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743598555546</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +295,8 @@
     <MESSAGE value="SDI-2425-211-10.5-Sistema de paginación." />
     <MESSAGE value="SDI-2425-211-11.1-SW API REST CRUD Canciones." />
     <MESSAGE value="SDI-2425-211-11.2-SW API REST Autenticación." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-11.2-SW API REST Autenticación." />
+    <MESSAGE value="SDI-2425-211-11.3-SW Cliente JQuery + AJAX." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-211-11.3-SW Cliente JQuery + AJAX." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
